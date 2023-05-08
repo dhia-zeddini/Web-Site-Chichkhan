@@ -1,0 +1,249 @@
+.container{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    gap: 32px;
+  
+    position: absolute;
+    width: 70%;
+    height: 464px;
+    left: 13%;
+    top: 200px;
+  
+    /* Neutral/50
+  
+  Secondary
+  */
+    background: #F9FAFB;
+    /* Drop shadow/Medium */
+  
+    box-shadow: 0px 4px 6px -1px rgba(16, 24, 40, 0.1), 0px 2px 4px -2px rgba(16, 24, 40, 0.1);
+    border-radius: 4px;
+}
+.titreSuivie{
+  width: 100%;
+    height: 32px;
+  padding-left:  20px;
+    font-family: 'Mona-Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+  
+    letter-spacing: 0.03em;
+  
+    /* Neutral/900 */
+  
+    color: #111827;
+  
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.inner-conainer{
+  display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* padding: 0px; */
+    gap: 24px;
+
+
+    width: 50%;
+    height: 100%;
+  
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.inner-container-text{
+    width: 100%;
+  height: 100%;
+
+  font-family: 'Mona-Sans';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 22px;
+  line-height: 160%;
+  /* or 32px */
+
+  letter-spacing: -0.01em;
+
+  /* Neutral/900 */
+
+  color: #111827;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.input-container{
+  display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+  padding-top: 30px;
+    width: 1029px;
+    height: 100%;
+  
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.input-area{
+  display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 1029px;
+    height: 68px;
+  
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.input-area1{
+  display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+  
+    width: 1029px;
+    height: 68px;
+  
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+.input-label{
+  width: 100%;
+    height: 20px;
+  
+    font-family: 'Mona-Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+  letter-spacing: 0.06px;
+    display: flex;
+    align-items: center;
+    font-feature-settings: 'salt' on;
+  
+    /* Neutral/900 */
+  
+    color: #111827;
+  
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.input{
+  box-sizing: border-box;
+  
+    /* Auto layout */
+  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 12px;
+    gap: 12px;
+  
+    width: 103%;
+    height: 40px;
+  
+    /* Generic/White */
+  
+    background: #FFFFFF;
+    /* Neutral/300 */
+  
+    border: 1px solid #D1D5DB;
+    /* Drop shadow/XSmall */
+  
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 4px;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.auth-btn{
+  display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 24px;
+  
+    width: 1030px;
+    height: 48px;
+  
+    /* Neutral/900 */
+  
+    background: #111827;
+    box-shadow: 0px 0.638021px 1.91406px rgba(16, 24, 40, 0.1), 0px 0.638021px 1.27604px -0.638021px rgba(16, 24, 40, 0.1);
+    border-radius: 2px;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.auth-text{
+  width: 156px;
+    height: 19px;
+  
+    font-family: 'Mona-Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+  
+    /* Neutral/50 */
+  
+    color: #F9FAFB;
+  
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
